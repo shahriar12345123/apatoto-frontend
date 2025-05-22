@@ -8,6 +8,7 @@ pnpm-debug.log*
 lerna-debug.log*
 bun.lockb
 robots.txt
+README.md
 node_modules
 dist
 dist-ssr
