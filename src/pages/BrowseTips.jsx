@@ -20,7 +20,7 @@ import {
 import { Button } from "../components/ui/button";
 import { Eye, Filter } from "lucide-react";
 
-// Sample tip data (in a real app, this would come from your API)
+
 const tipData = [
   {
     id: 1,

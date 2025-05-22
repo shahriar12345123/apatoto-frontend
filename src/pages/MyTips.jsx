@@ -72,12 +72,12 @@ const MyTips = () => {
   const { toast } = useToast();
 
   const [tips, setTips] = useState(() => {
-    // প্রথমে localStorage থেকে লোড, না থাকলে ডিফল্ট ডেটা দিবে
+  
     const storedTips = localStorage.getItem("userTips");
     return storedTips ? JSON.parse(storedTips) : userTipsData;
   });
 
-  // যদি tips পরিবর্তন হয় তাহলে localStorage আপডেট হবে
+  
   useEffect(() => {
     localStorage.setItem("userTips", JSON.stringify(tips));
   }, [tips]);

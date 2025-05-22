@@ -187,7 +187,7 @@ const ShareTip = () => {
                 <Label htmlFor="imageUrl">Image URL</Label>
                 <Input
                   id="imageUrl"
-                  placeholder="https://example.com/your-image.jpg"
+                  placeholder="image.jpg"
                   {...register("imageUrl", {
                     required: "Image URL is required",
                   })}

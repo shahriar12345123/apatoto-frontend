@@ -85,6 +85,7 @@ const Register = () => {
       <Card className="w-full max-w-md">
         <CardHeader>
           <div className="flex justify-center mb-4">
+            {/* svg created ai */}
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
@@ -126,7 +127,7 @@ const Register = () => {
               <Input
                 id="email"
                 type="email"
-                placeholder="email@example.com"
+                placeholder="email@x.com"
                 {...register("email", {
                   required: "Email is required",
                   pattern: {
@@ -146,7 +147,7 @@ const Register = () => {
               <Input
                 id="photoURL"
                 type="text"
-                placeholder="https://example.com/photo.jpg"
+                placeholder="https://photo.com/photo.jpg"
                 {...register("photoURL")}
               />
             </div>
